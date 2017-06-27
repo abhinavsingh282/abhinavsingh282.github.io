@@ -58,39 +58,56 @@
 								</header>
 								<ul class="features">
 									<li>
-										<span class="gappi"><a href="https://play.google.com/store/apps/details?id=in.gappi.gappichat&hl=en"><img src="images/gappi.jpg" alt="gappi app" height="100" width="100" /></a></span>
+										<span class="tts"><img src="images/tts.png" alt="NER" height="150" width="150" /></span>
+										<h3>Text to Speech</h3>
+										<p>Currently working on projects and architectures to solve the problem of Text to Speech (Project Currently Underway)
+										</p>
+									</li>
+									<li>
+										<span class="paraphrase_detection"><img src="images/paraphrase.png" alt="paraphrase" height="150" width="200" /></a></span>
+										<h3>Paraphrase Detection<br><a href="https://github.com/abhinavsingh282/MP-CNN-TensorFlow">github link</a></h3>
+										<p>I have implemented an unorthodox CNN based model in tensorflow to solve the paraphrasing problem as described in Multi-Perspective Sentence Similarity Modeling with Convolutional Neural Networks”<a href="http://aclweb.org/anthology/D/D15/D15-1181.pdf">(MPCNN) </a> by Hua He, Kevin Gimpel, and Jimmy Lin.
+									</p>
+									</li>
+									<li>
+										<span class="machine_translation"><img src="images/machine_translation.jpg" alt="NER" height="150" width="200" /></span>
+										<h3>Machine Translation</h3>
+										<p>I built a neural machine translation models in Tensorflow based on seq2seq learning and attention along with a lot of bells and whistles to achieve state of the art efficiency for Indian languages.</p>
+									</li>
+									<li>
+										<span class="gappi"><a href="https://play.google.com/store/apps/details?id=in.gappi.gappichat&hl=en"><img src="images/gappi.jpg" alt="gappi app" height="150" width="100" /></a></span>
 										<h3><a href="https://play.google.com/store/apps/details?id=in.gappi.gappichat&hl=en">Gappi Transcription Chat App </a></h3>
 										<p>Gappi is a revolutionary chatting app for Indian languages. The core functionality of the app is to enable chatting via sending transcription of audio into one of the many Indian languages of your choosing. You can give it a try in english if unacquainted with indian languages. My 4 member team is responsible for the development of the deep neural networks comprising of CNNs, LSTMs and RNNs which enable the required Natural Language Processing.</p>
 									</li>
 									<li>
-										<span class="ner"><img src="images/ner.jpg" alt="NER" height="100" width="100" /></span>
+										<span class="ner"><img src="images/ner.jpg" alt="NER" height="150" width="100" /></span>
 										<h3>Named Entity Recognition</h3>
 										<p>We built a NER model for the purpose of intent classification of interaction with users (eg. Cab booking, Flight booking, Food ordering, etc). The model was initially built using Conditional Random fields but we later moved to stacked lstms to improve generalization and greater independance from training data. We observed that the CRF based model was hamstrung by the variation in training data it recieved, Stacked LSTM models performed significantly better.</p>
 									</li>
 									<li>
-										<span class="char-nnet"><img src="images/char-nnet.png" alt="char-nnet" height="100" width="100" /></span>
+										<span class="char-nnet"><img src="images/char-nnet.png" alt="char-nnet" height="150" width="100" /></span>
 										<h3>Character based Neural Language Models</h3>
 										<p>Using stacked CNNs and LSTMs along with a myriad of tweaks within them, we have programmed DNNs, (mostly in python, theano) to build language models. We then incorporate these language models to enable transliteration and our other efficient <a href="https://liv.ai/api/">APIs</a><br> -  Speach to Text
 										<br>- Audio Search
 										<br>- Tagging of Audio files according to words present in them.</p>
 									</li>
 									<li>
-										<span class="gan"><img src="images/gan.jpg" alt="char-nnet" height="100" width="100" /></span>
+										<span class="gan"><img src="images/gan.jpg" alt="char-nnet" height="150" width="100" /></span>
 										<h3>Generative Adversarial Networks</h3>
 										<p>Building upon Dr. Ian goodfellows work, we have utilised GANs for the purpose of regularization of our DNNs using adversarial perturbations, leading to a more robust system.</p>
 									</li>
 									<li>
-										<span class="twitter-sent-analysis"><img src="images/twitter-sent-analysis.png" alt="char-nnet" height="100" width="200" /></span>
+										<span class="twitter-sent-analysis"><img src="images/twitter-sent-analysis.png" alt="char-nnet" height="150" width="200" /></span>
 										<h3>Sentiment Analysis of Twitter data</h3>
 										<p>As a Major Project towards completion of my Bachelors degree,I created a system, which was an ensemble of CNNs and used word embeddings generated via word2vec.I trained my neural network to try to predict the 2016 US Elections by gauging the mood of the nation reflected by their twitter reactions.</p>
 									</li>
 									<li>
-										<span class="Tree LSTM"><img src="images/treelstm.png" alt="char-nnet" height="100" width="100" /></span>
+										<span class="Tree LSTM"><img src="images/treelstm.png" alt="char-nnet" height="150" width="100" /></span>
 										<h3>Tree LSTM</h3>
 										<p>Much of the work performed on morphologically rich languages benefits greatly by the presence of semantic tree structure of sentences in training data. To further leverage the benefits of this meta-information, we created an LSTM not as a standard linear chain but rather as nodes in leaves of the semantic tree to construct a Language Model.</p>
 									</li>
 									<li>
-										<span class="Transliteration keyboard"><img src="images/transliteration-keyboard.jpg" alt="char-nnet" height="100" width="100" /></span>
+										<span class="Transliteration keyboard"><img src="images/transliteration-keyboard.jpg" alt="char-nnet" height="150" width="100" /></span>
 										<h3>Transliteration keyboard</h3>
 										<p>Building upon our previous transliteration work, I have made a transliteration tool whos prediction capabilities are augmented by LSTM based DNN language model and predicts not only the nearest phonetically similar caracter but also words that are probable word being typed out.</p>
 									</li>
